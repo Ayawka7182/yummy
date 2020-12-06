@@ -1,0 +1,114 @@
+body{
+    min-width: 750px;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(174, 88, 231, 0.712);
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    padding:0 420px;
+    padding-right: 100px;
+    font-size: 30px;
+    color: rgb(61, 77, 90);
+}
+#home{
+    margin-top: -65px;
+
+}
+.main{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+#promo{
+    
+    margin-left: 700px;
+    margin-right: 400px;
+    margin-top: 10px;
+    opacity: 0;
+    
+    
+}
+.popup{
+   
+   top: 0;
+  background-color: seashell;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+}
+#promo_subtitle{
+    font-size: 30px;
+    margin: -200px;
+
+
+}
+#menu, #home, #order, #contacts{
+    cursor: pointer;
+}
+#img{
+    position: relative;
+}
+h1{
+    cursor: help; /*когда наводишь курсором на слово registration там появляется вопросик и пояснение, что это регистрационная форма*/
+    margin: 0;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #9c3e7c;
+}
+
+.group{
+    margin: 10px;
+    padding: 5px;
+}
+label{
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.carousel-inner img {
+    width: 1000px;
+    height: 500px;
+    margin-left: 300px;
+  }
+
+#carousel-control-prev-icon, #carousel-control-next-icon{
+color: black;
+}
+button{
+    cursor: pointer;
+    padding: 10px 30px;
+    height: 55px;
+    color: black;
+    background: #bd84aa ;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+button:hover{
+    opacity: .80;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+.closed{
+    position: absolute;
+    top: 170px;
+    right: 515px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+input{
+    margin-top: 10px;
+    height: 40px;
+    width: 400px;
+    border-radius: 10px/10px;
+    border: none; /*чтоб не было черной рамки вокруг инпутов*/
+    padding-left: 15px;
+    font-size: 18px;
+}
+input:focus{ /*фокус это псевдо класс*/
+    transform: translateX(15px); /*что-то типо анимации, когда нажимаешь инпут уменьшается на 15 пикселей*/
+    width: 385px;
+}
